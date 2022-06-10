@@ -20,7 +20,7 @@ const Projects = () => {
         <div className='mt-36'>
             <h1 className='text-5xl text-white text-center mb-6'>Project{projects.length}</h1>
 
-            <div className='grid grid-cols-1 w-3/4 mx-auto gap-16 lg:grid-cols-2'>
+            <div className='grid grid-cols-1 my-20 w-3/4 mx-auto gap-16 lg:grid-cols-2'>
 
 
                 {
@@ -36,7 +36,7 @@ const Projects = () => {
                                     <h2 className="text-2xl font-bold">{project.name}</h2>
                                     <p>{project.description}</p>
                                     <p className='text-xl'><strong>Technology :</strong> {project.technology}</p>
-                                    <button class="btn glass text-white"><a href={project.live} target='_blank'>Live</a></button>
+                                    <a href={project.live} target='_blank'><button class=" w-full btn glass text-white">Live</button></a>
                                 </div>
                             </div>
                     )
