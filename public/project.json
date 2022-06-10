@@ -1,0 +1,38 @@
+[
+    {
+      "name": "IFAD Autos Parts",
+      "img": "https://i.ibb.co/3BW3m6y/ifad.png",
+      "description": "Intel Celeron Processor N4020 (4M Cache, 1.10 GHz up to 2.80 GHz).\r\n",
+      "technology": "React.Js, MongoDB, Firebase, Cors, Express",
+      "live": "https://ifad-autos.web.app/",
+      "client": "https://github.com/programming-hero-web-course1/manufacturer-website-client-side-ssmdbayzid",
+      "server": "https://github.com/programming-hero-web-course1/manufacturer-website-server-side-ssmdbayzid"
+    },
+    {
+      "name": "Masuk IT Warehouse",
+      "img": "https://i.ibb.co/d7j0dky/masuk.png",
+      "description": "Intel Celeron Processor N4020 (4M Cache, 1.10 GHz up to 2.80 GHz).\r\n",
+      "technology": "React.Js, MongoDB, Firebase, Bootstrap, HTML",
+      "live": "https://masuk-computers-warehouse.web.app/",
+      "client": "https://github.com/ProgrammingHeroWC4/warehouse-management-client-side-ssmdbayzid",
+      "server": "https://github.com/ProgrammingHeroWC4/warehouse-management-server-side-ssmdbayzid"
+      
+    },
+    {
+      "name": "Destiny Photography",
+      "img": "https://i.ibb.co/mhgMzsb/photography.png",
+      "description": "Intel Celeron Processor N4020 (4M Cache, 1.10 GHz up to 2.80 GHz).\r\n",
+      "technology": "React.Js, Firebase, Bootstrap, HTML",
+      "live": "https://chimerical-squirrel-f1631b.netlify.app/",
+      "codeLink": "https://github.com/programming-hero-web-course-4/independent-service-provider-ssmdbayzid"
+      
+    },
+    {
+      "name": "avita-essential-14-celeron",
+      "img": "https://i.ibb.co/TYLM4ZJ/enfluencer.png",
+      "description": "Intel Celeron Processor N4020 (4M Cache, 1.10 GHz up to 2.80 GHz)FHD (1920 x 1080) IPS Display. 4GB LPDDR4 RAM.\r\n",
+      "technology": "HTML5, CSS3, Bootstrap",
+      "live": "https://ssmdbayzid.github.io/enfluencer22/enfluencer22.html",
+      "codeLink": "https://github.com/ssmdbayzid/enfluencer22"
+    }
+  ]

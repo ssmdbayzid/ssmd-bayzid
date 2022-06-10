@@ -1,0 +1,30 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap'); */
+
+
+.name {
+  border-right: solid 5px rgba(255,255,255,.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  /* font-family: 'Zen Loop', cursive;   */
+  color: rgba(255,255,255,.70);
+}
+
+/* Animation */
+.name {
+  animation: animated-text 4s linear 1s 1 normal both,
+             animated-cursor 600ms linear infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 100%;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
