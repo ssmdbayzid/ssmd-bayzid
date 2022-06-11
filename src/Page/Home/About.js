@@ -1,10 +1,11 @@
 import React from 'react';
+import img from '../../Image/photo.png'
 
 const About = () => {
     return (
         <div className="hero text-white min-h-screen w-10/12 mx-auto">
             <div className="hero-content flex-col lg:flex-row">
-                <img src="https://api.lorem.space/image/movie?w=260&h=400" className="max-w-sm rounded-lg shadow-2xl" />
+                <img src={img} className="max-w-sm rounded-lg shadow-2xl" />
                 <div className='m-8 w-1/2 text-justify'>
                     <h1 className="text-5xl tracking-wide font-bold">About Me</h1>
                     <h1 className="text-2xl font-bold">Web Developer <span className='text-[#EB0C83]'>& Designer</span></h1>
