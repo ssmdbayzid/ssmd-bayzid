@@ -3,7 +3,7 @@ import img from '../../Image/photo.png'
 
 const About = () => {
     return (
-        <div className="hero text-white min-h-screen w-10/12 mx-auto">
+        <div id='about' className="hero text-white min-h-screen w-10/12 mx-auto">
             <div className="hero-content flex-col lg:flex-row">
                 <img src={img} className="max-w-sm rounded-lg shadow-2xl" />
                 <div className='m-8 w-1/2 text-justify'>

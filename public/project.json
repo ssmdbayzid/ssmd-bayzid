@@ -2,37 +2,50 @@
     {
       "name": "IFAD Autos Parts",
       "img": "https://i.ibb.co/3BW3m6y/ifad.png",
-      "description": "Intel Celeron Processor N4020 (4M Cache, 1.10 GHz up to 2.80 GHz).\r\n",
+      "description": "These project have many parts for sale. There  have a purchase page there user can purchase parts available quantity. There have user dashboard user can see his all purchased parts & manage his purchase remove. There have manage all user dashboard there can make a user an Admin, Remove user.).\r\n",
       "technology": "React.Js, MongoDB, Firebase, Cors, Express",
       "live": "https://ifad-autos.web.app/",
       "client": "https://github.com/programming-hero-web-course1/manufacturer-website-client-side-ssmdbayzid",
-      "server": "https://github.com/programming-hero-web-course1/manufacturer-website-server-side-ssmdbayzid"
+      "server": "https://github.com/programming-hero-web-course1/manufacturer-website-server-side-ssmdbayzid",
+      "slide1": "https://i.ibb.co/rkNrn8w/ifad-4.jpg",
+      "slide2": "https://i.ibb.co/S3Y2P68/ifad-3.jpg",
+      "slide3": "https://i.ibb.co/RN30jg4/ifad-2.jpg"
+
+
     },
     {
       "name": "Masuk IT Warehouse",
       "img": "https://i.ibb.co/d7j0dky/masuk.png",
-      "description": "Intel Celeron Processor N4020 (4M Cache, 1.10 GHz up to 2.80 GHz).\r\n",
+      "description": "These project have many Product. There  have a Update page there user can Delivery Product & Add Product quantity. There have Manage product page there user can see his all Product & manage his product & can product remove.\r\n",
       "technology": "React.Js, MongoDB, Firebase, Bootstrap, HTML",
       "live": "https://masuk-computers-warehouse.web.app/",
       "client": "https://github.com/ProgrammingHeroWC4/warehouse-management-client-side-ssmdbayzid",
-      "server": "https://github.com/ProgrammingHeroWC4/warehouse-management-server-side-ssmdbayzid"
-      
+      "server": "https://github.com/ProgrammingHeroWC4/warehouse-management-server-side-ssmdbayzid",
+      "slide1": "https://i.ibb.co/rHK0kcK/masuk-4.jpg",
+      "slide2": "https://i.ibb.co/kmyc8KN/masuk-3.jpg",
+      "slide3": "https://i.ibb.co/3rVTq0b/masuk-2.jpg"
     },
     {
       "name": "Destiny Photography",
       "img": "https://i.ibb.co/mhgMzsb/photography.png",
-      "description": "Intel Celeron Processor N4020 (4M Cache, 1.10 GHz up to 2.80 GHz).\r\n",
+      "description": "These project have many service for sale. There  have a Photography Items which service prove. There has Bomething button these button is private route. There I use firebase for authentication.).\r\n",
       "technology": "React.Js, Firebase, Bootstrap, HTML",
       "live": "https://chimerical-squirrel-f1631b.netlify.app/",
-      "codeLink": "https://github.com/programming-hero-web-course-4/independent-service-provider-ssmdbayzid"
+      "codeLink": "https://github.com/programming-hero-web-course-4/independent-service-provider-ssmdbayzid",
+      "slide1": "https://i.ibb.co/6BLjdtB/photography-4.jpg",
+      "slide2": "https://i.ibb.co/bbwkGLD/photography-3.jpg",
+      "slide3": "https://i.ibb.co/GWg6vkz/photography-2.jpg"
       
     },
     {
-      "name": "avita-essential-14-celeron",
+      "name": "Journey as Influencer",
       "img": "https://i.ibb.co/TYLM4ZJ/enfluencer.png",
-      "description": "Intel Celeron Processor N4020 (4M Cache, 1.10 GHz up to 2.80 GHz)FHD (1920 x 1080) IPS Display. 4GB LPDDR4 RAM.\r\n",
+      "description": "These project have many Product for sale. There  have a Enfluencing Items which for sale. There has Bomething button these button is private route. There I use firebase for authentication.\r\n",
       "technology": "HTML5, CSS3, Bootstrap",
       "live": "https://ssmdbayzid.github.io/enfluencer22/enfluencer22.html",
-      "codeLink": "https://github.com/ssmdbayzid/enfluencer22"
+      "codeLink": "https://github.com/ssmdbayzid/enfluencer22",
+      "slide1": "https://i.ibb.co/pbqjdSD/enfluencer-4.jpg",
+      "slide2": "https://i.ibb.co/3Tnxhs7/enfluencer-3.jpg",
+      "slide3": "https://i.ibb.co/CBrgjKq/enfluencer-2.jpg"
     }
   ]

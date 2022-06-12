@@ -12,7 +12,7 @@ const Projects = () => {
             .then(data => setProjects(data))
     }, [])
 
-    console.log(projects)
+    console.log(projects[0]?.img)
     // const [ name, img, description, technology, live, client, server, codeLink ] = project;
 
 
@@ -24,28 +24,23 @@ const Projects = () => {
                 {
                     projects && projects.map(project =>
                         <div className="card  p-3 w-full bg-[#212129] shadow-xl">
-                            <div class="h-96 scroll-smooth hover:scroll-auto carousel carousel-vertical rounded-box">
-                                <div class="carousel-item">
-                                    <img src={project.img} className='w-full round' />
-                                </div>
-                            </div>
+                            <img src={project.img} className='w-full h-[500px] round' alt='' />
 
                             <div className="card-body text-white text-center">
                                 <h2 className="text-2xl font-bold">{project.name}</h2>
-                                <p>{project.description}</p>
                                 <p className='text-xl'><strong>Technology :</strong> {project.technology}</p>
-                                <a href={project.live} target='_blank'><button class=" w-full btn glass text-white">Live</button></a>
+                                <a href={project.live} target='_blank'><button className=" w-full btn glass text-white">Live</button></a>
                                 <div>
                                     
                                     {project.client?
-                                    <button class="btn btn-sm m-3 btn-outline btn-primary"><a className='w-full' href={project.client} target='_blank'>Client Side Code</a></button>
+                                    <button className="btn btn-sm m-3 btn-outline btn-primary"><a className='w-full' href={project.client} target='_blank'>Client Side Code</a></button>
                                     :
-                                    <button class="btn btn-sm m-3 btn-outline btn-primary"><a className='w-full' href={project.codeLink} target='_blank'>Git Code</a></button>
+                                    <button className="btn btn-sm m-3 btn-outline btn-primary"><a className='w-full' href={project.codeLink} target='_blank'>Git Code</a></button>
                                     
                                 }
-                                   { project?.client && <button class="btn btn-sm m-3 btn-outline btn-secondary"><a className='w-full' href={project.server} target='_blank'>Server Side Code</a></button>}
+                                   { project?.client && <button className="btn btn-sm m-3 btn-outline btn-secondary"><a className='w-full' href={project.server} target='_blank'>Server Side Code</a></button>}
                                 </div>
-                                <a href={`/project/${project?._id}`} ><button class=" w-full btn bg-pink-500 hover:bg-pink-700 text-white">Details</button></a>
+                                <a href={`/project/${project?._id}`} ><button className=" w-full btn bg-pink-500 hover:bg-pink-700 text-white">Details</button></a>
 
                             </div>
                         </div>
