@@ -83,7 +83,7 @@ const Project = () => {
             </div>
           </div> */}
 
-        <div className="card-bodytext-white text-center">
+        <div className="card-body text-white text-center">
           <h2 className="text-2xl font-bold">{project.name}</h2>
           <p>{project.description}</p>
           <p className='text-xl'><strong>Technology :</strong> {project.technology}</p>
