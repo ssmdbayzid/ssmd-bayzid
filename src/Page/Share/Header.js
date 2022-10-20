@@ -1,46 +1,81 @@
 import React from 'react';
+import {GiHamburgerMenu} from 'react-icons/gi'
+import logo from '../../Image/logo 2.png'
+
+/*
+import React from 'react';
+import { Link } from 'react-router-dom';
+import {motion} from 'framer-motion'
+
+const Header = () => {
+    return (
+        <header className='z-50 w-screen p-6 px-16'>
+          
+            <div className='hidden md:flex justify-between'>
+                <div className='flex gap-3 items-center cursor-pointer'>
+                    <img src='https://i.ibb.co/5xGqjWX/logo.png' className='w-8' alt='' />
+                    <p className='text-lg text-headingColor font-bold'>BroRest</p>
+                </div>
+                <div className='flex gap-8'>
+                <ul className='flex gap-8 mr-3 items-center ml-auto '>
+                    <Link to="/home" className='text-base text-textColor hover:text-headingColor  cursor-pointer duration-100 transition-all ease-in-out'>Home</Link>
+                    <Link to="/menu" className='text-base text-textColor hover:text-headingColor  cursor-pointer duration-100 transition-all ease-in-out'>Menu</Link>
+                    <Link to="/home" className='text-base text-textColor hover:text-headingColor  cursor-pointer duration-100 transition-all ease-in-out'>About Us</Link>
+                    <Link to="/home" className='text-base text-textColor hover:text-headingColor  cursor-pointer duration-100 transition-all ease-in-out'>Service</Link>
+                </ul>
+                <div className='items-center justify-center cursor-pointer relative flex'>
+                    <FaShoppingCart className='text-2xl'/>
+                    <div className=' relative justify-center items-center h-5 w-5 -top-3 -left-2 rounded-full flex bg-[#FF0000]'>
+                        <p className='text-xs text-white font-semibold'> 1  </p>
+                    </div>
+                </div>
+                <motion.img whileTap={{scale: 0.5}}
+                src='https://i.ibb.co/Wfdz7Ks/Avatar-Profile-PNG-Pic.png' className='w-10 h-10 min-h-[40px] min-w-[40px]' alt=''/>
+                </div>
+            </div>
+        </header>
+    );
+};
+
+export default Header;
+*/
 
 const Header = () => {
 
 
     const navbar = <>
-        <li><a href='/home'>Home</a></li>
-        <li><a href='#about'>About</a></li>
-        <li><a href='/project'>Project</a></li>
-        <li><a href='https://drive.google.com/file/d/18IoPnhg3olutrF6N7nI4QVZnfQkawWni/view' target='_blank' download >My Resume</a></li>
-        <li><a href='/blog'>Blogs</a></li>
+        <a className='text-base text-white hover:text-gray-300  cursor-pointer duration-100 transition-all ease-in-out' href='/home'>Home</a>   
+        <a className='text-base text-white hover:text-gray-300  cursor-pointer duration-100 transition-all ease-in-out' href='#about'>About</a> 
+        <a className='text-base text-white hover:text-gray-300  cursor-pointer duration-100 transition-all ease-in-out' href='/project'>Project</a> 
+        <a className='text-base text-white hover:text-gray-300  cursor-pointer duration-100 transition-all ease-in-out' href='https://drive.google.com/file/d/18IoPnhg3olutrF6N7nI4QVZnfQkawWni/view' target='_blank' download >My Resume</a>   
+        <a className='text-base text-white hover:text-gray-300  cursor-pointer duration-100 transition-all ease-in-out' href='/blog'>Blogs</a>  
     </>
 
     return (
-        <div className="navbar text-[#EB0C83] w-3/4 margin-auto">
-            <div className="justify-center navbar-start">
-                <div className="dropdown">
-                    <label tabindex="0" className="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                    </label>
-                    <ul tabindex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a>Item 1</a></li>
-                        <li tabindex="0">
-                            <a className="justify-between">
-                                Parent
-                                <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
-                            </a>
-                            <ul className="p-2">
-                                {navbar}
-                            </ul>
-                        </li>
-                        <li><a>Item 3</a></li>
-                    </ul>
-                </div>
-                <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
-            </div>
-            <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal p-0">
-                    {navbar}
+        <header className='w-screen p-6 px-16'>
+          
+            <div className='hidden md:flex items-center justify-between'>
+                
+                    <img src={logo} className='w-24 rounded' alt='' />
 
-                </ul>
+                    
+                <div className='flex gap-8'>
+                {navbar}
+                
+                {/* <motion.img whileTap={{scale: 0.5}} */}
+                {/* src='https://i.ibb.co/Wfdz7Ks/Avatar-Profile-PNG-Pic.png' className='w-10 h-10 min-h-[40px] min-w-[40px]' alt=''/> */}
+                </div>
+            </div>    
+            <div  className='block md:hidden justify-between'>
+                <div>
+                   <h1>Bayzid</h1>
+                </div>
+                <div>
+                    <GiHamburgerMenu />
+                </div>
+
             </div>
-        </div>
+        </header>
     );
 };
 
